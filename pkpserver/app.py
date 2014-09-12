@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 from flask import Flask
 from flask.ext import restful
-from .resources.pin_validation_error import PinValidationError
+from pkpserver.resources.pin_validation_error import PinValidationError
 
 
 def configure_api(app):
