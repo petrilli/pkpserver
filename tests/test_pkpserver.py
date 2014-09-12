@@ -10,7 +10,7 @@ Tests for `pkpserver` module.
 
 import unittest
 
-from pkpserver import pkpserver
+#from pkpserver import pkpserver
 
 
 class TestPkpserver(unittest.TestCase):

@@ -6,4 +6,5 @@ class PinValidationError(restful.Resource):
     """Represents a single instance of a Pin Validation error from a user
     agent (UA) when a Known Pinned Host has set the report-uri directive."""
     def post(self):
-        pass
+        return {'status': 'OK'}
+
